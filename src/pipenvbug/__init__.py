@@ -4,7 +4,7 @@ from pyramid.view import view_config
 
 @view_config(route_name="example", renderer="json")
 def example(request):
-    return {"msg": "It works!"}
+    return {"msg": "It workz!"}
 
 
 def main(global_config, **settings):
