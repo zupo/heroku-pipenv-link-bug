@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "91ee2d605e1373aae8d93e163463db891f968d2381d422c6807d2f813011aa32"
+            "sha256": "d384905aeefb1dcaeb5851d6dd985480c5d3bb8ee5739b6a2d396f2cd4e7b348"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,10 @@
         ]
     },
     "default": {
+        "e1839a8": {
+            "editable": true,
+            "path": "."
+        },
         "gunicorn": {
             "hashes": [
                 "sha256:aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471",
@@ -37,10 +41,6 @@
                 "sha256:fe53697ec2754703096b75d0ba29112b0590b4ce46726fe4f9408fd006e4eefc"
             ],
             "version": "==2.0.1"
-        },
-        "pipenvbug": {
-            "editable": true,
-            "path": "."
         },
         "plaster": {
             "hashes": [
