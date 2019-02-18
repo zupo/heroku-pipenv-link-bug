@@ -1,1 +1,1 @@
-web: gunicorn --bind :$PORT
+web: gunicorn --paste production.ini --bind :$PORT
