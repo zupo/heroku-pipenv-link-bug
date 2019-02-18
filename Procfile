@@ -1,1 +1,1 @@
-web: gunicorn --paste etc/production.ini --bind :$PORT
+web: gunicorn --bind :$PORT
